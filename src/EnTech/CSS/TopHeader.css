@@ -1,0 +1,53 @@
+.topheader{
+    background: #092C55;
+    display: flex;
+    padding: 10px 0px;
+}
+
+.div1{
+    flex: 50%;
+    margin: 0px 0px 0px 50px;
+
+}
+.phone{
+    display: inline-block;
+    color: white;
+    margin: 0px 35px 0px 0px;
+}
+.phone a{
+    color: white;
+}
+
+
+.email{
+    display: inline-block;
+    color: white;
+    
+}
+.email a{
+    color: white;
+}
+
+.div2{
+    flex: 50%;
+    text-align: end;
+    color: white;
+}
+
+.div2 div a{
+    color: white;
+    margin: 0px 37px 0px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+ 
+.div1{
+    flex: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.div2{
+   display: none;
+}
+  }

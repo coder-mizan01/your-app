@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+
+#header{
+    background: white;
+    border-bottom: 1px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(255, 255, 255, 0.3);
+
+}
+
+
+/*header part 1 starts here*/
+
+#headerPart1 {
+    border-top: 2px solid white;
+    display: flex;
+
+}
+
+.brandDiv {
+    flex: 20%;
+    text-align: center;
+    margin: auto;
+}
+
+.brandDiv a{
+    display:inline-block;
+    color: #092C55;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight:900;
+    font-family: 'Ramabhadra', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.serachDiv{
+    display: block;
+    flex: 80%;
+    text-align: center;
+    margin: 8px 0px 0px 0px;
+    position: relative;
+}
+
+.serachDiv input{
+    width: 800px;
+    padding: 8px 40px;
+    border-radius: 20rem;
+    border: 2px solid black;
+    outline: none;
+    text-rendering: optimizeSpeed;  
+}
+
+.searchicon{
+    position: absolute;
+    top: 14px;
+    left: 65px;
+    font-size: 1rem;
+  
+}
+
+
+.userandcart{
+    flex: 20%;
+    text-align: center;
+    margin: auto;
+   
+}
+
+.user{
+   display: inline-block;
+   font-size: 2.2rem;
+   padding: 10px;
+   border-radius: 100%;
+   background: #F5F4F7;
+   margin: 5px;
+}
+
+.cart{
+    display: inline-block;
+    font-size: 2.2rem;
+    padding: 10px;
+    border-radius: 100%;
+    background: #F5F4F7;
+    margin: 5px;
+}
+
+
+.responsiveSearchicon{
+    display: none;
+    font-size: 2.2rem;
+    padding: 10px;
+    border-radius: 100%;
+    background: #F5F4F7;
+    margin: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cart{
+    padding: 5px;
+}
+
+
+.user{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.responsiveSearch{
+    margin: 10px 0px 10px 0px;
+    background-color: #FFFFFF;
+}
+.responsiveSearch input{
+    display: none;
+    outline: none;
+    width: 95%;
+    margin: 0;
+    padding: 10px 0px 10px 10px;  
+    margin: auto;
+    border: 2px solid black;
+
+
+   
+}
+
+@media only screen and (max-width: 1115px) {
+
+    .serachDiv {
+        display: none;
+    }
+     .responsiveSearchicon{
+       display: inline-block;
+       font-size: 2rem;
+       padding: 5px;
+       border-radius: 100%;
+       background: #F5F4F7;
+       margin: 5px;
+       font-weight: bold;
+    }
+
+
+    .brandDiv a{
+        text-align: start;
+        margin-left: 10px;
+    }
+    .userandcart{
+        text-align: end;
+        margin-right: 10px;
+    }
+  }
+
+  /*header part 1 ends here*/
+
+
+  /*headerpart2 starts here*/
+ 
+.headerpart2{
+
+    padding: 10px 50px 10px 50px;
+}  
+.menuButton{
+    padding: 10px 50px;
+    background: #F6F8FC;
+    border: none;
+    cursor: pointer;
+}  
+.menuText{
+    display: inline-block;
+    margin-left: 0.5rem;
+    margin-bottom: 6px;
+ 
+}  
+
+.menu {
+    float: right;
+ 
+}
+.menu li{
+   display: inline-block;
+   
+}
+
+.menu li a{
+    display: block;
+    padding: 10px 15px;
+    color: black;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1115px) {
+    .menu{
+        display: none;
+    }
+    .headerpart2{
+       display: none;
+    }
+    
+}
+
+
+/*drop down*/
+
+.LogInDropdown{
+    background-color: #FFFFFF;
+    width: 300px;
+    height: auto;
+    padding: 15px;
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position:absolute;
+    right: 20px;
+    z-index: 1;
+}
+
+
+.emaildiv{
+    margin: 5px 5px 20px 5px;
+}
+.emaildiv input{
+    outline: none;
+    width: 250px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.passwordDiv{
+    margin: 5px 5px 20px 5px;
+}
+.passwordDiv input{
+    outline: none;
+    width: 250px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.btnDiv{
+    margin: 5px;
+}
+
+.btnDiv button{
+    display: block;
+    width: 100%;
+    background-color: #092C55;
+    color: #FFFFFF;
+}

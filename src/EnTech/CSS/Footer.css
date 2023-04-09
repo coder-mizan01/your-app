@@ -1,0 +1,29 @@
+
+
+#footer{
+    display: flex;
+    padding: 35px;
+    background-color: #092C55;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+#footer .address{
+   flex: 35%;
+}
+
+#footer .company{
+    flex: 15%;
+}
+
+#footer .customerCare{
+    flex: 15%;
+}
+
+#footer .Legal{
+    flex: 15%;
+}
+
+#footer .DownloadApp{
+    flex: 20%;
+}
